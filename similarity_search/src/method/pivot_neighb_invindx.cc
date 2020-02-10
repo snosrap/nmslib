@@ -21,7 +21,7 @@
 #include <unordered_map>
 
 // This is only for _mm_prefetch
-#include <mmintrin.h>
+#include <xmmintrin.h>
 
 #include "portable_simd.h"
 #include "space.h"
